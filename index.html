@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>English Practice School</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to English Practice School</h1>
+    <p>Practice English with our AI tutor!</p>
+  </header>
+
+  <main>
+    <section id="chat-section">
+      <h2>Chat with AI Tutor</h2>
+      <div id="chat-box">
+        <!-- Chat messages will appear here -->
+      </div>
+      <div id="input-area">
+        <input type="text" id="user-input" placeholder="Type your message here..." />
+        <button id="voice-btn">🎤</button>
+        <button id="send-btn">Send</button>
+      </div>
+      <div id="grammar-correction">
+        <h3>Grammar Correction</h3>
+        <p id="correction-result">Your corrected sentence will appear here.</p>
+      </div>
+    </section>
+
+    <section id="quiz-section">
+      <h2>Vocabulary Quiz</h2>
+      <div id="quiz-question"></div>
+      <input type="text" id="quiz-answer" placeholder="Your answer..." />
+      <button id="submit-quiz-btn">Submit</button>
+      <p id="quiz-feedback"></p>
+    </section>
+
+    <section id="progress-section">
+      <h2>Your Progress</h2>
+      <p>Total Quizzes Taken: <span id="quiz-count">0</span></p>
+      <p>Correct Answers: <span id="correct-answers">0</span></p>
+      <p>Pronunciation Score: <span id="pronunciation-score">0%</span></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 English Practice School. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
